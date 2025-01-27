@@ -29,6 +29,6 @@ function listboxChange(evt) {
     const id = evt.target.options[evt.target.selectedIndex].getAttribute('row_id');
     const value = evt.target.value;
     // id will be null if if "row_id" isn't defined on the <sp-menu-item>
-    console log(`row_id is ${row_id} and value is ${value});
+    console.log(`row_id is ${row_id} and value is ${value}`);
 }
 ````
